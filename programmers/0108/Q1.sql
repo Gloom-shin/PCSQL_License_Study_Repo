@@ -1,4 +1,7 @@
-SELECT BOARD_ID, WRITER_ID, TITLE, PRICE,
+SELECT BOARD_ID,
+       WRITER_ID,
+       TITLE,
+       PRICE,
        CASE USED_GOODS_BOARD.STATUS
            WHEN 'SALE' THEN '판매중'
            WHEN 'RESERVED' THEN '예약중'

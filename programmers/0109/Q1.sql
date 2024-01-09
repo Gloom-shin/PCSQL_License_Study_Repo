@@ -5,13 +5,13 @@
 
 -- User 테이블과 Join하고, 총금액 기준 오름차순으로 반환해야됨.
 
-SELECT USER_ID, NICKNAME , TOTAL_SALES FROM USED_GOODS_USER
-                                                JOIN
-                                            (
-                                                SELECT WRITER_ID, SUM(PRICE) AS TOTAL_SALES FROM USED_GOODS_BOARD
-                                                WHERE (USED_GOODS_BOARD.STATUS = 'DONE')
-                                                GROUP BY WRITER_ID
-                                                HAVING TOTAL_SALES >= 700000
-                                            ) AS TOTAL ON USED_GOODS_USER.USER_ID = TOTAL.WRITER_ID
+SELECT USER_ID, NICKNAME, TOTAL_SALES
+FROM USED_GOODS_USER
+         JOIN
+     (SELECT WRITER_ID, SUM(PRICE) AS TOTAL_SALES
+      FROM USED_GOODS_BOARD
+      WHERE (USED_GOODS_BOARD.STATUS = 'DONE')
+      GROUP BY WRITER_ID
+      HAVING TOTAL_SALES >= 700000) AS TOTAL ON USED_GOODS_USER.USER_ID = TOTAL.WRITER_ID
 
 ORDER BY TOTAL_SALES
