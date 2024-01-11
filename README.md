@@ -15,7 +15,8 @@ PCSQL 자격증 대비 학습 출첵 레포지토리
 
 | 날짜   | 레포 문제 번호                        | 난이도  | 문제이름                            | 링크                                                                     |
 |------|---------------------------------|------|---------------------------------|------------------------------------------------------------------------|
-| 1/10 | [Q1](./programmers/0110/Q1.sql) | lv.3 | 대여 기록이 존재하는 자동차 리스트 구하기         | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/157341) |                                                                        |  
+| 1/10 | [Q1](./programmers/0111/Q1.sql) | lv.3 | 대여 기록이 존재하는 자동차 리스트 구하기(join)   | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/157341) |                                                                        |  
+| 1/10 | [Q1](./programmers/0110/Q1.sql) | lv.3 | 대여 기록이 존재하는 자동차 리스트 구하기(서브쿼리)   | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/157341) |                                                                        |  
 | 1/10 | [Q2](./programmers/0110/Q2.sql) | lv.3 | 자동차 대여 기록에서 대여중 / 대여 가능 여부 구분하기 | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/157340) |                                                                        |  
 | 1/9  | [Q1](./programmers/0109/Q1.sql) | lv.3 | 조건에 맞는 사용자와 총 거래금액 조회하기         | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/164668) |
 | 1/9  | [Q2](./programmers/0109/Q2.sql) | lv.2 | 자동차 평균 대여 기간 구하기                | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/157342) |
