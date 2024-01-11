@@ -1,0 +1,24 @@
+-- 자동차 종류 5개 종류중 `세단` `suv``
+-- 11월에 대여 가능 , 대여 금액이 50만원이상 ~ 200만원미만
+-- 자동차 ID , 자동차 종류, 대여금액(FEE)
+-- 1순위 대여금액 내림차순, 2순위 자동차 종류 오름차순 3순위 자동차 ID 내림차순
+
+-- CAR_RENTAL_COMPANY_RENTAL_HISTORY 테이블에 11월이 존재하지 않아야한다.
+
+
+SELECT C.CAR_ID,
+       C.CAR_TYPE,
+       CAST((DAILY_FEE * (100 - CAST((
+           SELECT DISCOUNT_RATE FROM CAR_RENTAL_COMPANY_DISCOUNT_PLAN plan
+           WHERE plan.CAR_TYPE = C.CAR_TYPE AND plan.DURATION_TYPE = '30일 이상'
+       )AS DECIMAL(3))) / 100 * 30) AS DECIMAL(7))AS FEE
+FROM CAR_RENTAL_COMPANY_CAR C
+WHERE C.CAR_TYPE IN ('세단', 'SUV')
+  AND C.CAR_ID NOT IN (
+    SELECT R.CAR_ID
+    FROM CAR_RENTAL_COMPANY_RENTAL_HISTORY R
+    WHERE R.START_DATE <= '2022-11-01'
+      AND R.END_DATE >= '2022-11-01'
+)
+HAVING FEE BETWEEN 500000 AND 1999999
+ORDER BY FEE DESC, C.CAR_TYPE ASC, C.CAR_ID DESC;
