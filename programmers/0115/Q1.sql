@@ -1,0 +1,14 @@
+-- 2022년 1월 (22년 1월인지 확인하기)
+-- 카테고리 별 도서 판매량 합산,
+-- 카테고리(오름차순), 총 판매량 리스트
+SELECT CATEGORY, SUM(TOTAL_SALES)
+FROM BOOK
+         JOIN (
+    SELECT BOOK_ID, sum(SALES) AS TOTAL_SALES
+    FROM BOOK_SALES
+    WHERE YEAR(SALES_DATE) = 2022 AND MONTH(SALES_DATE) = 1
+    GROUP BY BOOK_ID
+) bs
+              ON BOOK.BOOK_ID	= bs.BOOK_ID
+GROUP BY CATEGORY
+ORDER BY CATEGORY

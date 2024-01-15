@@ -19,7 +19,8 @@ PCSQL 자격증 대비 학습 출첵 레포지토리
 
 | 날짜   | 레포 문제 번호                        | 난이도  | 문제이름                            | 링크                                                                     |
 |------|---------------------------------|------|---------------------------------|------------------------------------------------------------------------|
-| 1/12 | [Q1](./programmers/0113/Q1.sql) | lv.4 | 저자 별 카테고리 별 매출액 집계하기            | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/144856) |                                                                        |  
+| 1/15 | [Q1](./programmers/0115/Q1.sql) | lv.3 | 카테고리 별 도서 판매량 집계하기              | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/144855) |                                                                        |  
+| 1/13 | [Q1](./programmers/0113/Q1.sql) | lv.4 | 저자 별 카테고리 별 매출액 집계하기            | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/144856) |                                                                        |  
 | 1/12 | [Q1](./programmers/0112/Q1.sql) | lv.4 | 자동차 대여 기록 별 대여 금액 구하기           | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/151141) |                                                                        |  
 | 1/12 | [Q2](./programmers/0112/Q2.sql) | lv.3 | 대여 횟수가 많은 자동차들의 월별 대여 횟수 구하기    | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/151139) |                                                                        |  
 | 1/11 | [Q1](./programmers/0111/Q1.sql) | lv.3 | 대여 기록이 존재하는 자동차 리스트 구하기(join)   | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/157341) |                                                                        |  
