@@ -9,7 +9,7 @@ PCSQL 자격증 대비 학습 출첵 레포지토리
 - 시험일 : 2월 25일(일요일 10:40~)
 - 목표 점수 3단계(700점 이상)
 - 일일 2~3문제 풀기
-   -  java코테도 같이 준비하면서 1~2문제로 줄임 
+    - java코테도 같이 준비하면서 1~2문제로 줄임
 - 문제 풀이 관련 [블로그 링크](https://velog.io/@gloom/series/SQL)
 
 ### 이슈 상황
@@ -20,6 +20,7 @@ PCSQL 자격증 대비 학습 출첵 레포지토리
 
 | 날짜   | 레포 문제 번호                          | 난이도  | 문제이름                            | 링크                                                                     |
 |------|-----------------------------------|------|---------------------------------|------------------------------------------------------------------------|
+| 1/20 | [Q1](programmers/Jan/0120/Q1.sql) | lv.4 | 서울에 위치한 식당 목록 출력하기              | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/131118) |                                                                        |  
 | 1/19 | [Q1](programmers/Jan/0119/Q1.sql) | lv.3 | 즐겨찾기가 가장 많은 식당 정보 출력하기          | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/131123) |                                                                        |  
 | 1/18 | [Q1](programmers/Jan/0118/Q1.sql) | lv.4 | 그룹별 조건에 맞는 식당 목록 출력하기           | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/131124) |                                                                        |  
 | 1/17 | [Q1](programmers/Jan/0117/Q1.sql) | lv.4 | 년, 월, 성별 별 상품 구매 회원 수 구하기       | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/131532) |                                                                        |  
