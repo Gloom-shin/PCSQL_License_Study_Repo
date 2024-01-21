@@ -20,6 +20,7 @@ PCSQL 자격증 대비 학습 출첵 레포지토리
 
 | 날짜   | 레포 문제 번호                          | 난이도  | 문제이름                            | 링크                                                                     |
 |------|-----------------------------------|------|---------------------------------|------------------------------------------------------------------------|
+| 1/21 | [Q1](programmers/Jan/0121/Q1.sql) | lv.4 | 5월 식품들의 총매출 조회하기                | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/131117) |                                                                        |  
 | 1/20 | [Q1](programmers/Jan/0120/Q1.sql) | lv.4 | 서울에 위치한 식당 목록 출력하기              | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/131118) |                                                                        |  
 | 1/19 | [Q1](programmers/Jan/0119/Q1.sql) | lv.3 | 즐겨찾기가 가장 많은 식당 정보 출력하기          | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/131123) |                                                                        |  
 | 1/18 | [Q1](programmers/Jan/0118/Q1.sql) | lv.4 | 그룹별 조건에 맞는 식당 목록 출력하기           | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/131124) |                                                                        |  
