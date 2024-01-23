@@ -15,11 +15,14 @@ PCSQL 자격증 대비 학습 출첵 레포지토리
 ### 이슈 상황
 
 - 1/12 Q2.sql 문제 다시 풀이 필요!
+- GROUP BY 시 집계합수 사용한 데이터는 잘나오지만, "그냥 칼럼"은 안된다.  
+  - 집계한 데이터가 아닌 최 상단에 먼저 나온 데이터를 가져오기 때문에   
 
 ## 🗂️ 문제 리스트
 
 | 날짜   | 레포 문제 번호                          | 난이도  | 문제이름                            | 링크                                                                     |
 |------|-----------------------------------|------|---------------------------------|------------------------------------------------------------------------|
+| 1/23 | [Q1](programmers/Jan/0123/Q1.sql) | lv.4 | 식품분류별 가장 비싼 식품의 정보 조회하기         | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/131116) |                                                                        |  
 | 1/21 | [Q1](programmers/Jan/0121/Q1.sql) | lv.4 | 5월 식품들의 총매출 조회하기                | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/131117) |                                                                        |  
 | 1/20 | [Q1](programmers/Jan/0120/Q1.sql) | lv.4 | 서울에 위치한 식당 목록 출력하기              | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/131118) |                                                                        |  
 | 1/19 | [Q1](programmers/Jan/0119/Q1.sql) | lv.3 | 즐겨찾기가 가장 많은 식당 정보 출력하기          | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/131123) |                                                                        |  
